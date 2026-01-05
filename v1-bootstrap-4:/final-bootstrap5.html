@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title -->
+    <title>Coding Club</title>
+
+    <!-- Link to Bootstrap 5 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Brand name -->
+      <a class="navbar-brand" href="final.html">Coding Club</a>
+
+      <!-- Button for collapsing navigation bar on smaller screens -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <!-- Home link -->
+          <li class="nav-item active">
+            <a class="nav-link" href="final.html">Home</a>
+          </li>
+
+          <!-- Gallery link -->
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+
+          <!-- Register link -->
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+
+          <!-- Dropdown for Blog/News -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Blog/News
+            </a>
+
+            <!-- Dropdown menu items -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="news.html">Tech News</a></li>
+              <li>
+                <a class="dropdown-item" href="spotlight.html"
+                  >Member Spotlights</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="tricks.html"
+                  >Coding Tips and Tricks</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main page content -->
+    <div class="container mt-5 content">
+      <!-- Page title -->
+      <h1 class="text-center hover-effect">Welcome to Coding Club</h1>
+
+      <!-- Main image -->
+      <img
+        class="main-photo"
+        src="club.jpg"
+        alt="Coding Club"
+        style="width: 100%; height: auto"
+      />
+
+      <!-- About Us section -->
+      <h2 class="text-center hover-effect">About Us</h2>
+      <p class="text-center">
+        Coding Club is a community of coders passionate about learning and
+        sharing knowledge. We offer a platform for beginners and experts alike
+        to explore the world of coding in a fun and interactive environment. Our
+        members get access to a wealth of resources, including tutorials, coding
+        challenges, and mentorship from experienced coders.
+      </p>
+
+      <!-- What We Offer section -->
+      <h2 class="text-center hover-effect">What We Offer</h2>
+      <p class="text-center">
+        Whether you're interested in web development, data science, artificial
+        intelligence, or any other field of coding, Coding Club has something
+        for you. We organize regular meetups, workshops, and coding bootcamps to
+        help our members stay up-to-date with the latest trends and technologies
+        in the coding world.
+      </p>
+
+      <!-- Join Us section -->
+      <h2 class="text-center hover-effect">Join Us</h2>
+      <p class="text-center">Join us today and start your coding journey!</p>
+
+      <!-- Register button -->
+      <div class="d-flex justify-content-center">
+        <a href="register.html" class="btn btn-primary me-2">Register</a>
+      </div>
+    </div>
+
+    <!-- Footer with contact info and social media icons -->
+    <footer>
+      <!-- Contact info -->
+      <div class="footer_info">123 Program Dr. Milwaukee, WI</div>
+      <div class="footer_info">program@code.com</div>
+      <div class="footer_info">+1 414 555 5555</div>
+
+      <!-- Social media icons -->
+      <div class="footer_icons">
+        <img src="images2/facebook.png" alt="Facebook Icon" />
+        <img src="images2/twitter.png" alt="Twitter Icon" />
+        <img src="images2/google.png" alt="Google Plus Icon" />
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,311 @@
+  /* General body styles */
+  body {
+      font-family: Arial, sans-serif; /* Set the font family */
+      background-image: url("matrix.jpg"); /* Set the background image */
+      background-repeat: no-repeat; /* Do not repeat the background image */
+      background-size: 100% 100%; /* Make the background image cover the entire body */
+      color: white; /* Set the text color to white */
+  }
+
+  /* Styles for the body when it has the class 'coding-club-photos' */
+  body.coding-club-photos {
+      display: flex; /* Use flexbox for layout */
+      flex-direction: column; /* Stack the flex items vertically */
+      min-height: 100vh; /* Make the body at least as tall as the viewport */
+  }
+
+  /* Styles for elements with the class 'container' */
+  .container {
+      flex: 1; /* Allow the container to grow and shrink as needed */
+      padding: 20px; /* Add padding around the content */
+      margin-top: 30px; /* Add margin to the top */
+      background-color: black; /* Set the background color to black */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      border-radius: 5px; /* Round the corners */
+  }
+
+  /* Styles for elements with the class 'content' */
+  .content {
+      background-color: black; /* Set the background color to black */
+      padding: 20px; /* Add padding around the content */
+      border-radius: 10px; /* Round the corners */
+  }
+
+  /* Styles for footer */
+  footer {
+      display: flex; /* Use flexbox for layout */
+      flex-direction: row; /* Arrange the flex items horizontally */
+      justify-content: space-around; /* Distribute the flex items evenly along the horizontal line */
+      align-items: center; /* Center the flex items along the vertical line */
+      background-color: black; /* Set the background color to black */
+      padding: 20px; /* Add padding around the content */
+  }
+
+  /* Styles for elements with the class 'footer_info' */
+  .footer_info {
+      text-align: center; /* Center the text */
+      color: white; /* Set the text color to white */
+  }
+
+  /* Styles for img elements within elements with the class 'footer_icons' */
+  .footer_icons img {
+      width: 30px; /* Set the width */
+      height: 30px; /* Set the height */
+      margin-right: 10px; /* Add margin to the right */
+  }
+
+  /* Styles for elements with the class 'main-photo' */
+  .main-photo {
+      margin-bottom: 20px; /* Add margin to the bottom */
+      margin-top: 20px; /* Add margin to the top */
+  }
+
+  /* Styles for elements with the class 'text-center' */
+  .text-center {
+      margin-top: 20px; /* Add margin to the top */
+      margin-bottom: 20px; /* Add margin to the bottom */
+  }
+
+  /* Styles for elements with the class 'main-photo' when they are hovered over */
+  .main-photo:hover {
+      animation: jiggle 0.5s linear; /* Apply the 'jiggle' animation */
+  }
+
+  /* Styles for elements with the class 'hover-effect' when they are hovered over */
+  .hover-effect:hover {
+      color: #0bac05; /* Change the text color */
+      transition: color 0.3s ease-in-out; /* Smoothly transition the color change */
+  }
+
+  /* Styles for elements with the class 'navbar' */
+  .navbar {
+      background-color: #333; /* Set the background color */
+  }
+
+  /* Styles for elements with the class 'nav-link' within elements with the class 'navbar-nav' */
+  .navbar-nav .nav-link {
+      color: #fff; /* Set the text color to white */
+      transition: color 0.3s ease; /* Smoothly transition the color change */
+  }
+
+  /* Styles for elements with the class 'nav-link' within elements with the class 'navbar-nav' when they are hovered over */
+  .navbar-nav .nav-link:hover {
+      color: #ddd; /* Change the text color */
+  }
+
+  /* Styles for elements with the class 'tip-card' */
+  .tip-card {
+      margin-bottom: 20px; /* Add margin to the bottom */
+      padding: 15px; /* Add padding around the content */
+      border: 1px solid #ddd; /* Add a border */
+      border-radius: 5px; /* Round the corners */
+  }
+
+  /* Styles for elements with the class 'animated-title' */
+  .animated-title {
+      animation: fadeInGrow 2s ease-out; /* Apply the 'fadeInGrow' animation */
+  }
+
+  /* Styles for h3 elements within elements with the class 'member-card' */
+  .member-card h3 {
+      margin-top: 15px; /* Add margin to the top */
+  }
+
+  /* Styles for elements with the class 'member-card' */
+  .member-card {
+      display: flex; /* Use flexbox for layout */
+      flex-direction: column; /* Stack the flex items vertically */
+      align-items: center; /* Center the flex items along the horizontal line */
+      text-align: center; /* Center the text */
+      margin-bottom: 20px; /* Add margin to the bottom */
+      padding: 15px; /* Add padding around the content */
+      border: 1px solid #ddd; /* Add a border */
+      border-radius: 5px; /* Round the corners */
+  }
+
+  /* Styles for elements with the class 'member-photo' */
+  .member-photo {
+      width: 200px; /* Set the width */
+      height: 200px; /* Set the height */
+      border-radius: 50%; /* Make the photo circular */
+      object-fit: cover; /* Make the photo cover its container */
+      transition: transform 0.3s ease; /* Smoothly transition any transformations */
+  }
+
+  /* Styles for elements with the class 'member-photo' when they are hovered over */
+  .member-photo:hover {
+      transform: scale(1.1); /* Enlarge the photo */
+  }
+
+  /* Styles for elements with the class 'news-card' */
+  .news-card {
+      margin-bottom: 20px; /* Add margin to the bottom */
+      padding: 15px; /* Add padding around the content */
+      border: 1px solid #ddd; /* Add a border */
+      border-radius: 5px; /* Round the corners */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      transition: box-shadow 0.3s ease; /* Smoothly transition the shadow */
+  }
+
+  /* Styles for elements with the class 'news-card' when they are hovered over */
+  .news-card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a more pronounced shadow */
+  }
+
+  /* Styles for elements with the class 'news-image' */
+  .news-image {
+      width: 100%; /* Make the image as wide as its container */
+      height: 200px; /* Set the height */
+      object-fit: cover; /* Make the image cover its container */
+      border-radius: 5px; /* Round the corners */
+  }
+
+  /* Styles for elements with the class 'gallery' */
+  .gallery {
+      display: grid; /* Use grid for layout */
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create as many columns as will fit, each at least 200px wide */
+      grid-gap: 10px; /* Add a gap between grid items */
+      padding: 20px; /* Add padding around the content */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      background-color: #fff; /* Set the background color to white */
+      border-radius: 5px; /* Round the corners */
+  }
+
+  /* Styles for elements with the class 'gallery-item' */
+  .gallery-item {
+      position: relative; /* Set the position context for absolutely positioned children */
+      overflow: hidden; /* Hide any content that extends beyond the element's box */
+      border-radius: 5px; /* Round the corners */
+  }
+
+  /* Styles for img elements within elements with the class 'gallery-item' */
+  .gallery-item img {
+      width: 100%; /* Make the image as wide as its container */
+      height: 100%; /* Make the image as tall as its container */
+      object-fit: cover; /* Make the image cover its container */
+      transition: transform 0.3s ease; /* Smoothly transition any transformations */
+  }
+
+  /* Styles for img elements within elements with the class 'gallery-item' when they are hovered over */
+  .gallery-item:hover img {
+      transform: scale(1.1); /* Enlarge the image */
+  }
+
+  /* Styles for elements with the class 'caption' */
+  .caption {
+      position: absolute; /* Position the caption relative to its nearest positioned ancestor */
+      bottom: 0; /* Align the bottom of the caption with the bottom of its container */
+      left: 0; /* Align the left edge of the caption with the left edge of its container */
+      width: 100%; /* Make the caption as wide as its container */
+      background: rgba(0, 0, 0, 0.7); /* Set the background color to semi-transparent black */
+      color: #fff; /* Set the text color to white */
+      padding: 10px; /* Add padding around the content */
+      text-align: center; /* Center the text */
+      transform: translateY(100%); /* Move the caption below its normal position */
+      transition: transform 0.3s ease; /* Smoothly transition the transformation */
+  }
+
+  /* Styles for elements with the class 'caption' when their parent 'gallery-item' is hovered over */
+  .gallery-item:hover .caption {
+      transform: translateY(0); /* Move the caption to its normal position */
+  }
+
+  /* Styles for elements with the class 'form-group' */
+  .form-group {
+      background-color: #f8f9fa; /* Set the background color */
+  }
+
+  /* Styles for elements with the class 'form-container' that are direct children of elements with the class 'container' */
+  .container > .form-container {
+      background-color: white; /* Set the background color to white */
+      padding: 20px; /* Add padding around the content */
+  }
+
+  /* Styles for label, input, select, textarea, and .form-check-label elements that are descendants of elements with the class 'form-container' that are direct children of elements with the class 'container' */
+  .container > .form-container label,
+  .container > .form-container input,
+  .container > .form-container select,
+  .container > .form-container textarea,
+  .container > .form-container .form-check-label {
+      color: black; /* Set the text color to black */
+  }
+
+  /* Styles for elements with the class 'animated-title' */
+  .animated-title {
+      animation: fadeInGrow 2s ease-out; /* Apply the 'fadeInGrow' animation */
+  }
+
+  /* Define the 'fadeInGrow' animation */
+  @keyframes fadeInGrow {
+      0% {
+        opacity: 0; /* Start fully transparent */
+        transform: scale(0.5); /* Start half size */
+      }
+      100% {
+        opacity: 1; /* End fully opaque */
+        transform: scale(1); /* End full size */
+      }
+  }
+
+  /* Styles for the footer when the viewport is 800px wide or less */
+  @media (max-width: 800px) {
+    footer {
+      flex-direction: column; /* Stack the flex items vertically */
+      align-items: center; /* Center the flex items along the horizontal line */
+      padding: 0; /* Remove the padding */
+      margin: 0; /* Remove the margin */
+    }
+  }
+
+  /* Styles for code elements within pre elements within elements with the class 'tip-card' */
+  .tip-card pre code {
+    color: white; /* Set the text color to white */
+  }
+
+  /* Styles for elements with the class 'main-photo' */
+  .main-photo {
+    margin-top: 20px; /* Add margin to the top */
+  }
+
+  /* Define the 'jiggle' animation */
+  @keyframes jiggle {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg); /* Start by moving the element slightly and not rotating it */
+    }
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg); /* Move the element in the opposite direction and rotate it slightly */
+    }
+    /* Continue moving and rotating the element in different directions and amounts */
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, -2px) rotate(-1deg); /* End by moving the element in the opposite direction and rotating it slightly */
+    }
+  }
+
+  /* Styles for elements with the class 'main-photo' when they are hovered over */
+  .main-photo:hover {
+    animation: jiggle 0.5s linear; /* Apply the 'jiggle' animation */
+  }
