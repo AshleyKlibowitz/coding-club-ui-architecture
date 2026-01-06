@@ -6,7 +6,7 @@ This repository documents the evolution of a web ecosystem I originally engineer
 
 The goal of this project is to demonstrate full lifecycle development: from the initial architecture of a responsive layout to the complex task of auditing and migrating a legacy codebase. It highlights the ability to manage technical debt, remove heavy dependencies (jQuery), and implement modern CSS logical properties within a production-ready environment.
 
-## ⚙️ Technical Highlights (The "Under the Hood" Features)
+## ⚙️ Technical Highlights
 
 This project displays technical growth and maintenance skills across two distinct phases of development:
 
